@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>komura.kml</name>
+	<Style id="sh_rail">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ccffaa00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_rail">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_rail0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_rail0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_rail">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ccffaa00</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_rail0">
+		<IconStyle>
+			<scale>2.91667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_rail0">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_rail0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_rail</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_rail</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/rail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>komura</name>
+		<open>1</open>
+		<Placemark>
+			<name>京都駅殺人事件</name>
+			<description>東京の浪人生・橋本眞人の部屋で、同級生の撲殺死体が見つかった。部屋に残された痕跡から、逃亡した橋本が時限爆弾を作っていたらしいことが判明する。やがて京都駅長室に届いた駅爆破を予告する脅迫状。京都へと急行する十津川警部だったが、厳戒空しく、駅３番ホームで爆発が！ 果たして橋本の仕業なのか？ また、脅迫犯の真の目的とは？　緊迫のサスペンス。</description>
+			<LookAt>
+				<longitude>135.7587667000087</longitude>
+				<latitude>34.98584899997104</latitude>
+				<altitude>0</altitude>
+				<heading>5.003012513942112e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.000007481661</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rail0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.7587378487948,34.98565596045236,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>豊田駅</name>
+			<LookAt>
+				<longitude>139.381493996519</longitude>
+				<latitude>35.65945400994929</latitude>
+				<altitude>0</altitude>
+				<heading>-9.44104083593309e-009</heading>
+				<tilt>0</tilt>
+				<range>1003.542631776127</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rail</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3814744999888,35.65934708876421,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>仙台駅殺人事件</name>
+			<description>毎年十二月一日正午に、仙台駅ホームに佇む和服姿の美女がいた。彼女は、銀座の高級クラブのママ・早坂みゆき。原宿で起きた殺人事件の容疑者となった彼女は、毎年一千万円もの大金をゆすられ続けていたのだった。姿を消したみゆきを追う十津川警部は仙台駅に網を張るが、何者かの妨害に遭い、失敗。そして新たな殺人が！　複雑に絡み合う事件の意外な真相とは!?</description>
+			<LookAt>
+				<longitude>140.8828793112405</longitude>
+				<latitude>38.25949295684982</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002735834830922111</heading>
+				<tilt>0</tilt>
+				<range>1000.911364323149</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rail0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.8824376069643,38.26000138235327,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東京駅殺人事件</name>
+			<description>東京駅の爆破を予告する脅迫電話が、駅長室にかかった。五十万人の乗降客を人質にとった犯人の要求は一億円。爆破予告時刻が迫るなか、受け渡しの舞台となった「踊り子号」には巧妙な罠が仕掛けられていた。首都の危機は回避されるのか。十津川警部率いる捜査陣と犯人との息づまる攻防を描いた傑作サスペンス！　ファン待望の新装新版で贈る「駅シリーズ」第一弾!</description>
+			<LookAt>
+				<longitude>139.7670062458054</longitude>
+				<latitude>35.68109765202552</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000163348008121472</heading>
+				<tilt>25.77665895489742</tilt>
+				<range>1224.228261421673</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7670515997006,35.68100554940457,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>西鹿児島駅殺人事件</name>
+			<description>西鹿児島行の寝台特急「明星51号」の車中で殺された男のポケットには、不思議なラブレターがあった。そして、同じ手紙を謎の女から受け取った田中刑事も刺殺された。接近する台風、降り注ぐ桜島の火山灰、さらに殺人の刑期を終えて復讐を狙う男・小西を迎え、混乱する西鹿児島駅。部下を失った十津川警部の活躍を描く、旅情と、息づまるサスペンスの傑作長編推理！</description>
+			<LookAt>
+				<longitude>130.5413847887205</longitude>
+				<latitude>31.58360046903081</latitude>
+				<altitude>0</altitude>
+				<heading>0.009552756488022734</heading>
+				<tilt>0</tilt>
+				<range>211.9866455299747</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rail0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.5412494794978,31.58375504692598,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>札幌駅殺人事件</name>
+			<description>市川真代は、上司のエリート課長・田宮と札幌へと駆け落ちしてきた。夢にまで見ていた新生活――ところが、彼らを追っていた探偵が、特急「北斗13号」内で殺されているのが見つかる。さらに、札幌入りしていた田宮の妻がホテルで殺害された！　指名手配される田宮と真代。なぜか田宮までが謎の失踪を遂げて……。十津川警部は、狡猾な真犯人の罠を見破れるのか!?</description>
+			<LookAt>
+				<longitude>141.3507045690958</longitude>
+				<latitude>43.06854047271619</latitude>
+				<altitude>0</altitude>
+				<heading>-15.30666792558365</heading>
+				<tilt>24.95427013101363</tilt>
+				<range>325.7825463995355</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>141.3507934615234,43.0685864305816,100</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

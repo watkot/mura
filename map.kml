@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> <Folder>
+ <name>Ground Overlays</name>
+ <description>Examples of ground overlays</description>
+ <GroundOverlay>
+ <name>Large-scale overlay on terrain</name>
+ <description>Overlay shows Mount Etna erupting on July 13th, 2001.</description>
+ <Icon>
+ <href>https://api.mapbox.com/styles/v1/mura0715/cj3eq1ilq000x2so8f2kq64rh/static/138.433370,38.625125,3.90,0.00,0.00/600x400@2x?access_token=pk.eyJ1IjoibXVyYTA3MTUiLCJhIjoiY2oybGxna3A4MDBlZDJxcXdmYTI5ZTl6ZiJ9.YKWjw9dATqIcPoF_cKQViw</href>
+ </Icon>
+ <LatLonBox>
+ <north>37.91904192681665</north>
+ <south>37.46543388598137</south>
+ <east>15.35832653742206</east>
+ <west>14.60128369746704</west>
+ <rotation>-0.1556640799496235</rotation>
+ </LatLonBox>
+ </GroundOverlay>
+ </Folder> </kml>
